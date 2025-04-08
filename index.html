@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Card</title>
+  <link rel="stylesheet" href="style.scss" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body id="body" class="theme--dark">
+    <input id="menu" type="checkbox">
+    <input id="night" type="checkbox">
+    <div id="container">
+      <div class="header">
+        <div class="logo"></div>
+        <label class="night-mode" for="night" onclick="enableNight()">
+          <i class="fa fa-moon-o"></i>
+        </label>
+      </div>    
+      <section class="left-section">
+        <img class="profile-pic" src="https://kolorsbykato.be/wp-content/uploads/2025/04/hendrik.png"/>
+        
+        <div class="profile-detail">
+          <span class="profile-maps">
+            <i class="material-icons">room</i>
+            Leuven, Belgium
+          </span>
+          <p class="profile-name">Hendrik De Ryck</p>
+          <span class="profile-summary">AI Engineer - Founder</span>
+        </div>
+        
+        <div class="profile-pils">
+          <span class="pils"><a href="https://www.linkedin.com/in/hendrik-de-ryck/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></span>
+          <span class="pils"><a href="https://wa.me/0032495174160/?text=Hi!%20Let's connect" target="_blank"><i class="fa fa-whatsapp"></i> Whatsapp </a></span>
+          <span class="pils"><a href="https://www.instagram.com/hendrik_de_ryck/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></span>
+        </div>
+      </section>
+      <div class="front-smooth"></div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
+  
