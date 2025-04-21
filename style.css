@@ -188,10 +188,10 @@ body {
   color: #f154ff;
 }
 .profile-pils .pils:nth-child(4):hover {
-  box-shadow: inset 0 0 0 1px #ff0000, 0 10px 30px -10px rgba(255, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 1px #ffd700, 0 10px 30px -10px rgba(255, 215, 0, 0.5);
 }
 .profile-pils .pils:nth-child(4):hover i {
-  color: #ff0000;
+  color: #ffd700;
 }
 
 @media screen and (min-width: 768px) {
