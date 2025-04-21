@@ -256,18 +256,46 @@ body {
   #container {
     flex-grow: 1;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
   }
   #container .left-section {
     width: 100%;
+    max-width: 400px;
     flex-direction: column;
-    justify-content: center;
-    padding: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  #container .left-section .profile-pic {
+    margin: 0 auto 1.5rem;
   }
   #container .left-section .profile-detail {
-    padding: 20px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  #container .left-section .profile-detail .profile-name {
+    margin-bottom: 0.5rem;
+  }
+  #container .left-section .profile-detail .profile-maps {
+    margin-bottom: 0.5rem;
+  }
+  #container .left-section .profile-detail .profile-summary {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  #container .left-section .profile-detail .profile-cv {
+    margin-top: 1rem;
   }
   .profile-pils {
     justify-content: center;
+    margin-top: 1.5rem;
+    width: 100%;
+    max-width: 400px;
   }
   .pop-up-menu {
     width: 100%;
